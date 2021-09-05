@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>About</h1>
+    <h1 class="title">About</h1>
     <NuxtLink to="/">Home</NuxtLink>
   </div>
 </template>
@@ -16,5 +16,9 @@ export default {}
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.title {
+  font-size: 80px;
 }
 </style>
