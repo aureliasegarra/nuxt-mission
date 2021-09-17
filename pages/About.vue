@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <h1 class="title">About</h1>
-    <NuxtLink to="/">Home</NuxtLink>
   </div>
 </template>
 
@@ -20,5 +19,8 @@ export default {}
 
 .title {
   font-size: 80px;
+  font-family: arial, sans-serif;
+  color: #020a46;
+  margin-top: 10%;
 }
 </style>

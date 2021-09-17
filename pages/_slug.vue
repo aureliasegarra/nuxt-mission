@@ -23,19 +23,28 @@ export default {
 
 <style scoped>
 .container {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
+h1 {
+  font-family: arial, sans-serif;
+  font-weight: normal;
+  font-size: 5em;
+}
+
 .link {
   margin: auto;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .planet {
-  width: 10%;
+  width: 20%;
   margin-top: 40px;
+  align-items: center;
+  justify-content: center;
 }
 </style>

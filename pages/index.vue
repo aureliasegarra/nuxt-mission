@@ -2,13 +2,9 @@
   <div class="container">
     <NuxtLogo />
     <h1 class="title">nuxt-mission</h1>
-    <NuxtLink to="/about" class="link">About</NuxtLink>
     <p v-if="$fetchState.pending">Fetching planets ...</p>
     <p v-else-if="$fetchState.error">Error while fetching planets ...</p>
     <ul>
-      <li>
-        <NuxtLink to="/nuxt">Nuxt</NuxtLink>
-      </li>
       <li v-for="planet in planets" :key="planet.slug">
         <NuxtLink :to="planet.slug">{{ planet.title }}</NuxtLink>
       </li>
@@ -43,7 +39,10 @@ export default {
 }
 
 .title {
-font-size: 80px;
+font-size: 100px;
+color: #020a46;
+font-family: arial, sans-serif;
+font-weight: 600;
 }
 
 .link {
@@ -54,5 +53,14 @@ font-size: 80px;
 ul {
   list-style-type: none;
   padding: 0;
+}
+
+li a{
+ text-decoration: none;
+ font-size: 40px;
+ color: #020a46;
+}
+li a:hover{
+ color: #0ac297;
 }
 </style>
