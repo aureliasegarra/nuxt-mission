@@ -1,9 +1,9 @@
 #  :earth_africa: Nuxt Mission
 
-## 👉 Create a list of planets with Nuxt
+## 👉  Create a list of planets with Nuxt
 
 ## Illustration 📸
-### 🖥  Desktop illustration
+### Desktop illustration
 ![desktop illustration](screenshot.png);
 
 
@@ -17,7 +17,7 @@
 - Explore Vue via Nuxt
 - UX / UI
 
-## How to use 🛠
+## How to use ⚙
 
 ### ⚙️ Launch the development server & meeting on http://localhost:3000/
 
